@@ -1,0 +1,56 @@
+How does a firewall work?
+
+When our computer has firewall protection, everything that goes in and out of it is monitored. 
+The firewall monitors all this information traffic to allow ‘good data’ in, but block ‘bad data’ from entering your computer.
+
+ 
+Firewalls use one or a combination of the following three methods to control traffic flowing in and out of the network:
+
+Packet filtering
+The most basic form of firewall software uses pre-determined security rules to create filters – if an incoming packet of information (small chunk of data) is flagged by the filters, it is not allowed through.
+Packets that make it through the filters are sent to the requesting system and all others are discarded.
+
+ 
+Proxy service
+A firewall proxy server is an application that acts as an intermediary between systems. Information from the internet is retrieved by the firewall and then sent to the requesting system and vice versa. 
+Firewall proxy servers operate at the application layer of the firewall, where both ends of a connection are forced to conduct the session through the proxy. 
+They operate by creating and running a process on the firewall that mirrors a service as if it were running on the end host, and thus centralise all information transfer for an activity to the firewall for scanning.
+
+ 
+Stateful inspection
+The most modern method of firewall scanning, that doesn't rely on the memory-intensive examination of all information packets is ‘stateful inspection’.  A ‘stateful’ firewall holds significant attributes of each connection in a database of trusted information, for the duration of the session. 
+These attributes, which are collectively known as the ‘state’ of the connection, may include such details as the IP addresses and ports involved in the connection and the sequence numbers of the packets being transferred.
+The firewall compares information being transferred to the copy relevant to that transfer held in the database – if the comparison yields a positive match the information is allowed through, otherwise it is denied.
+
+
+Types of firewalls
+
+
+There are two types of firewalls: software and hardware.
+Hardware firewalls are built into network devices such as routers and can protect every single machine on a network and require little configuration to work effectively. 
+They use packet filtering techniques to examine the header of a packet, determining his source and destination and then, comparing the data to a set of predefined rules, they decide whether to drop the packet or forward it to the next step or to its destination.
+
+
+Software firewalls are the most popular network protection method for home users. They usually come as stand-alone applications or as part of a complete anti virus protection software, such as the one BullGuard provides.
+Besides providing protection for inbound and outbound traffic, a software firewall can also protect against Trojan or Worm applications and allows various options of control over its functions and features.
+
+
+Precautions to protect pc
+a) use firewall
+      The two major computer operating systems have built-in firewalls, software designed to create a barrier between your information and the outside world. 
+      Firewalls prevent unauthorized access to your business network and alert you of any intrusion attempts.
+
+b) install antivirus software
+      Antivirus software plays a major role in protecting your system by detecting real-time threats to ensure your data is safe. 
+      Some advanced antivirus programs provide automatic updates, further protecting your machine from the new viruses that generate every day.
+
+c) use complex passwords
+      More secure often means longer and more complex: Use a password that has at least eight characters and a combination of numbers, upper- and lowercase letters, and computer symbols.
+
+d) secure your network
+      If you've got a new router, chances are it comes with no set security. Always log in to the router and set a password using a secure, encrypted setup. 
+      This prevents intruders from infiltrating your network and messing with your settings
+
+e) use two factor authentication
+      two-factor authentication, which requires you to type in a numerical code in addition to your password when logging in. This hardens your account to the outside world.
+
